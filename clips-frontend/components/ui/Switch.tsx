@@ -1,5 +1,7 @@
 "use client";
 
+// this file is a React component for a toggle switch UI element. It defines a `Switch` component that can be used to toggle between two states (on/off). The component accepts three props: `checked` (a boolean indicating the current state), `onChange` (a function to call when the state changes), and an optional `id` for accessibility. The switch is styled using Tailwind CSS classes, and it includes keyboard accessibility features for toggling with the spacebar or enter key.
+
 import React from 'react';
 
 interface SwitchProps {
